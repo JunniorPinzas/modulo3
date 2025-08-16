@@ -1,0 +1,5 @@
+x=input("Escriba un número con 6 decimales: ")
+x=float(x)
+print("El número con 1 decimal es {0:.1f}".format(x))
+print("El número con 2 decimales es {0:.2f}".format(x))
+print("El número con 4 decimales es {0:.4f}".format(x))
